@@ -21,9 +21,9 @@ arr = np.random.randint(0, 101, size=(5, 4, 3))
 min_val = np.min(arr)
 max_val = np.max(arr)
 
-pos_min = np.argwhere(arr == min)[0]
-pos_max = np.argwhere(arr == max)[0]
+pos_min = np.argwhere(arr == min_val)[0]
+pos_max = np.argwhere(arr == max_val)[0]
 
 print("Arreglo generado:\n", arr)
-print(f"\nValor mínimo: {min} en la posición: {tuple(pos_min)}")
-print(f"\nValor máximo: {max} en la posición: {tuple(pos_max)}")
+print(f"\nValor mínimo: {min_val} en la posición: {tuple(pos_min)}")
+print(f"\nValor máximo: {max_val} en la posición: {tuple(pos_max)}")
