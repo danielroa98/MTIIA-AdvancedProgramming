@@ -13,6 +13,7 @@ __gt__ y __lt__ para comparar el área de dos rectángulos, devuelva True o Fals
 según sea el caso.
 """
 
+
 class Rectangulo:
     """Clase Rectangulo que representa un rectángulo y permite comparar sus dimensiones."""
 
